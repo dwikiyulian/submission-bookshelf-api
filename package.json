@@ -1,0 +1,21 @@
+{
+  "name": "bookshelf-api-backend",
+  "version": "1.0.0",
+  "description": "submission",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "author": "Dwiki Yulian",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nanoid": "^4.0.2"
+  }
+}
